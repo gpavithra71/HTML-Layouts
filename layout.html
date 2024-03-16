@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            font-style: italic;
+            border: 2px solid black;
+        }
+        header{
+            background-image:url(./Images/pexels-photo-66997.webp);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 60px;
+        }
+        nav{
+            text-align: center;
+            background-image: url(./Images/pexels-photo-1906658.jpeg);
+            padding: 20px;
+            font-size: 40px;
+        }
+        a{
+            color: ghostwhite;
+            text-decoration: none;
+            padding: 20px;
+            margin: 20px;
+        }
+        img{
+            width: 400px;
+            height: 400px;
+        }
+        section{
+            display: flex;
+            margin: 5px;
+            padding: 10px;
+            justify-content: center;
+            text-align: center;
+            background-image:url(./Images/pexels-photo-66997.webp);
+        }
+        article{
+            padding: 10px;
+            margin: 10px;
+        }
+        #java{
+            border: 2px solid white;
+            border-radius: 40px;
+            text-shadow:0 0 15px rgb(9, 88, 9);
+            color: white;
+            font-size: 30px;
+        }
+        #py{
+            border: 2px solid greenyellow;
+            border-radius: 40px;
+            text-shadow:0 0 15px blue;
+            color: white;
+            font-size: 30px;
+        }
+        #mern{
+            border: 2px solid magenta;
+            border-radius: 40px;
+            text-shadow:0 0 15px rgb(226, 14, 216);
+            color: white;
+            font-size: 30px;
+        }ul{
+            color:lightcyan;
+        }
+        footer{
+            background-image: url(./Images/pexels-photo-1906658.jpeg);
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+        button{
+            padding: 5px 20px 5px 20px;
+            font-size: 40px;
+            border: 2px solid white;
+            border-radius: 50px;
+        }
+        button:hover{
+            background:linear-gradient(45deg,green ,orange ,blue ,magenta ,yellow );
+            color: ghostwhite;
+        }
+    </style>
+</head>
+<body>
+    <header>Jspiders</header>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Careers</a>
+        <a href="">Courses</a>
+        <a href="">Contact</a>
+    </nav>
+    <section>
+        <article id="java">
+            <img src="./Images/wp7250087.webp" alt="">
+            <h1>JAVA FULL STACK</h1>
+            <ul  type="none" >
+                <li>Core Java</li>
+                <li>JEE</li>
+                <li>SQL</li>
+                <li>Web Technology</li>
+                (HTML-5,CSS-3,<br> BOOTSTRAP-5,<br> Javascript(ES6,ES7))
+                <li>Framework</li>
+                Spring
+                Hibernate
+                <li>Coding,Decoding,<br> Data Structure</li>
+            </ul>
+        </article>
+        <article id="py">
+            <img src="./Images/python-logo-4k-i6-2048x2048.jpg" alt="">
+            <h1>PYTHON FULL STACK</h1>
+            <ul  type="none" >
+                <li>Core Python</li>
+                <li>Framework</li>
+                DJANGO <br>
+                FLASK
+                <li>SQL</li>
+                <li>Web Technology</li>
+                (HTML-5,CSS-3,<br> BOOTSTRAP-5,<br> Javascript(ES6,ES7))
+                <li>Coding,Decoding,<br> Data Structure</li>
+            </ul>
+        </article>
+        <article id="mern">
+            <img src="./Images/mern-stack-284eedb6-ee6b-4441-b181-5064a453a15a.webp" alt="">
+            <h1>MERN FULL STACK</h1>
+            <ul  type="none" >
+                <li>UI Courses</li>
+                HTML-5 <br>
+                CSS-3 <br>
+                Javacsript(ES6,ES7) <br>
+                Tailwind <br>
+                JSON <br>
+                AJAX <br>
+                <li>Mongo DB</li>
+                <li>Express JS</li>
+                <li>React JS</li>
+                <li>Node JS</li>
+            </ul>
+        </article>
+    </section>
+    <footer>
+        <h2>Copyright&Copy 2022 Jspiders</h2>
+        <p>
+            Address:761/1, 3rd Floor, Dr Puneeth Rajkumar Rd, next to Chaitanya Techno School, near KLM Mall, Marathahalli.
+        </p>
+        <button>Home</button>
+    </footer>
+</body>
+</html>
